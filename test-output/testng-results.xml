@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-13T09:57:36 IST" name="Suite" finished-at="2024-02-13T09:57:56 IST" duration-ms="19791">
+    <groups>
+    </groups>
+    <test started-at="2024-02-13T09:57:36 IST" name="ChromeTest" finished-at="2024-02-13T09:57:42 IST" duration-ms="5686">
+      <class name="multipleWindows.MultipleWindows">
+        <test-method is-config="true" signature="initializeCrossBrowser(java.lang.String)[pri:0, instance:multipleWindows.MultipleWindows@7eac9008]" started-at="2024-02-13T09:57:36 IST" name="initializeCrossBrowser" finished-at="2024-02-13T09:57:38 IST" duration-ms="1902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCrossBrowser -->
+        <test-method signature="testApplicationDemo()[pri:0, instance:multipleWindows.MultipleWindows@7eac9008]" started-at="2024-02-13T09:57:38 IST" name="testApplicationDemo" finished-at="2024-02-13T09:57:42 IST" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multipleWindows.MultipleWindows@7eac9008]" started-at="2024-02-13T09:57:42 IST" name="tearDown" finished-at="2024-02-13T09:57:42 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multipleWindows.MultipleWindows -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-02-13T09:57:42 IST" name="EdgeTest" finished-at="2024-02-13T09:57:48 IST" duration-ms="6262">
+      <class name="multipleWindows.MultipleWindows">
+        <test-method is-config="true" signature="initializeCrossBrowser(java.lang.String)[pri:0, instance:multipleWindows.MultipleWindows@2002fc1d]" started-at="2024-02-13T09:57:42 IST" name="initializeCrossBrowser" finished-at="2024-02-13T09:57:43 IST" duration-ms="1028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCrossBrowser -->
+        <test-method signature="testApplicationDemo()[pri:0, instance:multipleWindows.MultipleWindows@2002fc1d]" started-at="2024-02-13T09:57:43 IST" name="testApplicationDemo" finished-at="2024-02-13T09:57:48 IST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multipleWindows.MultipleWindows@2002fc1d]" started-at="2024-02-13T09:57:48 IST" name="tearDown" finished-at="2024-02-13T09:57:48 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multipleWindows.MultipleWindows -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-02-13T09:57:48 IST" name="FirefoxTest" finished-at="2024-02-13T09:57:56 IST" duration-ms="7812">
+      <class name="multipleWindows.MultipleWindows">
+        <test-method is-config="true" signature="initializeCrossBrowser(java.lang.String)[pri:0, instance:multipleWindows.MultipleWindows@6f4a47c7]" started-at="2024-02-13T09:57:48 IST" name="initializeCrossBrowser" finished-at="2024-02-13T09:57:51 IST" duration-ms="2775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCrossBrowser -->
+        <test-method signature="testApplicationDemo()[pri:0, instance:multipleWindows.MultipleWindows@6f4a47c7]" started-at="2024-02-13T09:57:51 IST" name="testApplicationDemo" finished-at="2024-02-13T09:57:55 IST" duration-ms="4058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multipleWindows.MultipleWindows@6f4a47c7]" started-at="2024-02-13T09:57:55 IST" name="tearDown" finished-at="2024-02-13T09:57:56 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multipleWindows.MultipleWindows -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
